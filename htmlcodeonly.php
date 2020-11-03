@@ -7,5 +7,13 @@
 <body>
 <h1>This is another way to write php</h1>
 <p>I will put my paragraphs below:</p>
+<?php
+$i = 0;
+while ($i < 10){
+    echo "<p>this is the ".$i."th line</p>";
+    $i++;
+}
+
+?>
 </body>
 </html>
