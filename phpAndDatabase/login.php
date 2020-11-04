@@ -21,7 +21,7 @@ if ($conn->error) {
 
 //create a query
 $sql = "select * from users 
-where username = " . $username . " and password = " . $password;
+where username = '" . $username . "' and password = '" . $password."'";
 echo $sql;
 //run my query
 $result = mysqli_query($conn, $sql);
