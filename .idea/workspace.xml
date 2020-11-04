@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b145c3a7-d69d-4aee-bc07-b13607f9a3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpAndDatabase/recieve.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpAndDatabase/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpAndDatabase/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +46,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpAndDatabase" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/phpAndDatabase" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +66,7 @@
       <updated>1604347226378</updated>
       <workItem from="1604347227989" duration="3508000" />
       <workItem from="1604432200187" duration="5914000" />
-      <workItem from="1604519052411" duration="2063000" />
+      <workItem from="1604519052411" duration="4793000" />
     </task>
     <servers />
   </component>
@@ -68,10 +74,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="439" y="314" key="NewPhpFileDialog" timestamp="1604520581114">
+    <state x="439" y="314" key="NewPhpFileDialog" timestamp="1604523802452">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1604520581114" />
+    <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1604523802452" />
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1604347511389" />
     <state x="439" y="315" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1604436966859" />
     <state x="97" y="23" key="SettingsEditor" timestamp="1604347493291">
