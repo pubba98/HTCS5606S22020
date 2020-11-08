@@ -2,5 +2,5 @@
 //start a session
 @session_start();
 //get session's value
-$username = $_SESSION["username"];
-echo "Username:".$username;
+$firstname = $_SESSION["firstname"];
+echo "User Firstname:".$firstname;
