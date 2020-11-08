@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b145c3a7-d69d-4aee-bc07-b13607f9a3ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpAndDatabase/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpAndDatabase/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/phpAndDatabase" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +65,9 @@
       <updated>1604347226378</updated>
       <workItem from="1604347227989" duration="3508000" />
       <workItem from="1604432200187" duration="5914000" />
-      <workItem from="1604519052411" duration="5105000" />
+      <workItem from="1604519052411" duration="5497000" />
+      <workItem from="1604533896144" duration="199000" />
+      <workItem from="1604545092435" duration="1000" />
     </task>
     <servers />
   </component>
@@ -74,15 +75,20 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="372" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604534043294">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state x="372" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.987@0.23.1920.987" timestamp="1604534043294" />
     <state x="439" y="314" key="NewPhpFileDialog" timestamp="1604523802452">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1604523802452" />
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1604347511389" />
     <state x="439" y="315" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1604436966859" />
-    <state x="97" y="23" key="SettingsEditor" timestamp="1604347493291">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="129" y="23" key="SettingsEditor" timestamp="1604534008931">
+      <screen x="0" y="23" width="1920" height="987" />
     </state>
     <state x="97" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1604347493291" />
+    <state x="129" y="23" key="SettingsEditor/0.23.1920.987@0.23.1920.987" timestamp="1604534008931" />
   </component>
 </project>
