@@ -2,10 +2,15 @@
 //start a session
 @session_start();
 //set values to session variables
-$_SESSION["username"] = "lei";
-$_SESSION["password"] = "song";
-$_SESSION["color"] = "red";
-$_SESSION["Address"] = "139 Carrington Road";
+//$_SESSION["username"] = "lei";
+//$_SESSION["password"] = "song";
+//$_SESSION["color"] = "red";
+//$_SESSION["Address"] = "139 Carrington Road";
+if (isset($_POST["message"])){
+    echo "<p>I have a post message in this page</p>";
+}else{
+    echo "<p>Please post a message to me</p>";
+}
 ?>
 <html>
 <head>
@@ -20,6 +25,11 @@ $_SESSION["Address"] = "139 Carrington Road";
     <li><a href="page4.php">Page 4</a> </li>
     <li><a href="page5.php">Page 5</a> </li>
 </ul>
+
+<form action="<?php $_SERVER["PHP_SELF"]; ?>"  method="post">
+    <input name="message" type="text" placeholder="message here">
+    <input type="submit" value="Post">
+</form>
 </body>
 </html>
 
