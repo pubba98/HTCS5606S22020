@@ -35,6 +35,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1jkTjbNFubdajPdQkZ7yPSmWiaq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,6 +71,7 @@
       <workItem from="1604519052411" duration="5497000" />
       <workItem from="1604533896144" duration="199000" />
       <workItem from="1604545092435" duration="1000" />
+      <workItem from="1604865229823" duration="2071000" />
     </task>
     <servers />
   </component>
@@ -79,12 +83,12 @@
       <screen x="0" y="23" width="1920" height="987" />
     </state>
     <state x="372" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.987@0.23.1920.987" timestamp="1604534043294" />
-    <state x="439" y="314" key="NewPhpFileDialog" timestamp="1604523802452">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="439" y="315" key="NewPhpFileDialog" timestamp="1604865505623">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1604523802452" />
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1604347511389" />
-    <state x="439" y="315" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1604436966859" />
+    <state x="439" y="315" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1604865505623" />
     <state x="129" y="23" key="SettingsEditor" timestamp="1604534008931">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
