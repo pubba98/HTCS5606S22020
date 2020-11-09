@@ -5,7 +5,10 @@
     <title>Include Exercise</title>
 </head>
 <body>
-<div id="header">Menu, login, pictures</div>
+<div id="header">
+    <?php include "menu.php"; ?>,
+    login, pictures
+</div>
 <div id="main">Contents</div>
 <div id="footer">contact information</div>
 </body>
