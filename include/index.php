@@ -8,7 +8,7 @@
 <body>
 <div id="header">
     <?php include "menu.php"; ?>,
-    login,
+    <?php include "page3.php"; ?>
     <?php include "headerimage.php"; ?>
 </div>
 <div id="main">Contents</div>
