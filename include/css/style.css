@@ -1,3 +1,17 @@
 body{
     background-color: aliceblue;
 }
+
+#header ul{
+    background-color: blanchedalmond;
+}
+
+#header li{
+    text-decoration: none;
+    color: green;
+    display: block;
+}
+
+#header a:hover{
+    font-size: 20px;
+}
