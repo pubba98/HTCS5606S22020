@@ -38,13 +38,13 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 }
 
 if (!isset($_SESSION["userID"])) {
-
-    echo '<form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">';
-    echo '<input name="username" type="text" placeholder="Username">';
-    echo '<input name="password" type="password" placeholder="Password">';
-    echo '<input type="submit" value="Post">';
-    echo '</form>';
-
+?>
+    <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
+    <input name="username" type="text" placeholder="Username">
+    <input name="password" type="password" placeholder="Password">
+    <input type="submit" value="Post">
+    </form>
+<?php
 }else{
 
     echo '<a href="logout.php">logout</a>';
