@@ -108,7 +108,7 @@
       <workItem from="1604953539030" duration="7000" />
       <workItem from="1604953566404" duration="3977000" />
       <workItem from="1605037245166" duration="3971000" />
-      <workItem from="1605056885335" duration="900000" />
+      <workItem from="1605056885335" duration="1244000" />
     </task>
     <servers />
   </component>
@@ -123,6 +123,10 @@
       <screen x="0" y="23" width="1920" height="987" />
     </state>
     <state x="372" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.987@0.23.1920.987" timestamp="1604534043294" />
+    <state x="651" y="444" width="535" height="292" key="ComposerInitDialogKey" timestamp="1605058188770">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="651" y="444" width="535" height="292" key="ComposerInitDialogKey/0.23.1920.985@0.23.1920.985" timestamp="1605058188770" />
     <state x="585" y="372" key="NewPhpFileDialog" timestamp="1605057228182">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
