@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 require '../vendor/autoload.php';
 use Mailgun\Mailgun;
 # Instantiate the client.
-$mgClient = new Mailgun('eacf1f278c4e1854aa914fe8d7f16ff5-ba042922-041df505');
+$mgClient = new Mailgun('pubkey-d47f680e618a4e3c7cfd3ffc31fce9fd');
 $domain = "lsong@unitec.ac.nz";
 # Make the call to the client.
 $result = $mgClient->sendMessage($domain, array(
