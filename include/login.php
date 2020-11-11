@@ -21,7 +21,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 
     //4. show result
     if ($result->num_rows == 1) {
-        echo "you have login";
+        echo "you have login ";
         while ($row = $result->fetch_assoc()) {
             echo $row["firstname"];
             //start a session
