@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b145c3a7-d69d-4aee-bc07-b13607f9a3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentemail/sendemail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/login.php" afterDir="false" />
-    </list>
+    <list default="true" id="b145c3a7-d69d-4aee-bc07-b13607f9a3ce" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +77,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/phpAndDatabase/SessionExercise" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -115,7 +108,7 @@
       <workItem from="1604953539030" duration="7000" />
       <workItem from="1604953566404" duration="3977000" />
       <workItem from="1605037245166" duration="3971000" />
-      <workItem from="1605056885335" duration="300000" />
+      <workItem from="1605056885335" duration="611000" />
     </task>
     <servers />
   </component>
@@ -130,12 +123,13 @@
       <screen x="0" y="23" width="1920" height="987" />
     </state>
     <state x="372" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.987@0.23.1920.987" timestamp="1604534043294" />
-    <state x="439" y="315" key="NewPhpFileDialog" timestamp="1604865505623">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="585" y="372" key="NewPhpFileDialog" timestamp="1605057228182">
+      <screen x="0" y="23" width="1920" height="985" />
     </state>
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1604523802452" />
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1604347511389" />
     <state x="439" y="315" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1604865505623" />
+    <state x="585" y="372" key="NewPhpFileDialog/0.23.1920.985@0.23.1920.985" timestamp="1605057228182" />
     <state x="129" y="23" key="SettingsEditor" timestamp="1604534008931">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
