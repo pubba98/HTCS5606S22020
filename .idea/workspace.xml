@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b145c3a7-d69d-4aee-bc07-b13607f9a3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/14.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/images/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentemail/sendemail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/menu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +114,7 @@
       <workItem from="1604953566404" duration="3977000" />
       <workItem from="1605037245166" duration="3971000" />
       <workItem from="1605056885335" duration="2933000" />
-      <workItem from="1605469361539" duration="756000" />
+      <workItem from="1605469361539" duration="1180000" />
     </task>
     <servers />
   </component>
