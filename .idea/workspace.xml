@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b145c3a7-d69d-4aee-bc07-b13607f9a3ce" name="Default Changelist" comment="" />
+    <list default="true" id="b145c3a7-d69d-4aee-bc07-b13607f9a3ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/include/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/images/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentemail/sendemail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +35,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <phar pharPath="/usr/local/bin/composer.phar" interpreterId="770efba0-94cc-4b03-9ac7-83b0518f9eef" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,14 +106,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpAndDatabase/SessionExercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/include/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include/images" />
       <recent name="$PROJECT_DIR$/phpAndDatabase/SessionExercise" />
       <recent name="$PROJECT_DIR$/phpAndDatabase" />
     </key>
@@ -108,7 +137,8 @@
       <workItem from="1604953539030" duration="7000" />
       <workItem from="1604953566404" duration="3977000" />
       <workItem from="1605037245166" duration="3971000" />
-      <workItem from="1605056885335" duration="1244000" />
+      <workItem from="1605056885335" duration="2933000" />
+      <workItem from="1605469361539" duration="756000" />
     </task>
     <servers />
   </component>
@@ -119,25 +149,31 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="404" y="168" key="#CLI_Interpreters" timestamp="1605058242883">
+      <screen x="0" y="23" width="1920" height="985" />
+    </state>
+    <state x="404" y="168" key="#CLI_Interpreters/0.23.1920.985@0.23.1920.985" timestamp="1605058242883" />
     <state x="372" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604534043294">
       <screen x="0" y="23" width="1920" height="987" />
     </state>
     <state x="372" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.987@0.23.1920.987" timestamp="1604534043294" />
-    <state x="651" y="444" width="535" height="292" key="ComposerInitDialogKey" timestamp="1605058188770">
+    <state x="651" y="444" width="535" height="292" key="ComposerInitDialogKey" timestamp="1605058251626">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state x="651" y="444" width="535" height="292" key="ComposerInitDialogKey/0.23.1920.985@0.23.1920.985" timestamp="1605058188770" />
-    <state x="585" y="372" key="NewPhpFileDialog" timestamp="1605057228182">
-      <screen x="0" y="23" width="1920" height="985" />
+    <state x="651" y="444" width="535" height="292" key="ComposerInitDialogKey/0.23.1920.985@0.23.1920.985" timestamp="1605058251626" />
+    <state x="439" y="315" key="NewPhpFileDialog" timestamp="1605469599835">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821/-1920.23.1920.1057@0.23.1440.821" timestamp="1604523802452" />
     <state x="439" y="314" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1604347511389" />
     <state x="439" y="315" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1604865505623" />
+    <state x="439" y="315" key="NewPhpFileDialog/0.23.1440.825@0.23.1440.825" timestamp="1605469599835" />
     <state x="585" y="372" key="NewPhpFileDialog/0.23.1920.985@0.23.1920.985" timestamp="1605057228182" />
-    <state x="129" y="23" key="SettingsEditor" timestamp="1604534008931">
-      <screen x="0" y="23" width="1920" height="987" />
+    <state x="97" y="23" key="SettingsEditor" timestamp="1605469641753">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="97" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1604347493291" />
+    <state x="97" y="23" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1605469641753" />
     <state x="129" y="23" key="SettingsEditor/0.23.1920.987@0.23.1920.987" timestamp="1604534008931" />
   </component>
 </project>
