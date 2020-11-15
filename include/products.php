@@ -1,8 +1,5 @@
 <?php
-// take input from selected category;
-if (isset($_GET["category"])){
-    echo "<h1>".$_GET["category"]."</h1>";
-}
+
 
 
 //1. connect to database
@@ -14,7 +11,14 @@ $dbname = "k2nfay1osz1i59kc";
 $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
 //2. create a query
-$sql = "select * from products where category=1";
+// take input from selected category;
+if (isset($_GET["category"])){
+    echo "<h1>".$_GET["category"]."</h1>";
+    $sql = "select * from products where category = ".$_GET["category"];
+}else{
+    $sql = "select * from products";
+}
+
 
 //3. run the query on that connection
 $result = mysqli_query($conn,$sql);
