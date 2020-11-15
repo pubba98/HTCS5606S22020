@@ -1,4 +1,10 @@
 <?php
+// take input from selected category;
+if (isset($_GET["category"])){
+    echo "<h1>".$_GET["category"]."</h1>";
+}
+
+
 //1. connect to database
 $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dbusername = "t8jnow42fmp1smpt";
