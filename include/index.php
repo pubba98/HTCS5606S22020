@@ -11,7 +11,10 @@
     <?php include "login.php"; ?>
     <?php include "headerimage.php"; ?>
 </div>
-<div id="main">Contents</div>
+<div id="main">
+    <h1>Products</h1>
+    <?php include "products.php" ;?>
+</div>
 <div id="footer">contact information</div>
 </body>
 </html>
