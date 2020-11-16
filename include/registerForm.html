@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+</head>
+<body>
+<form method="post" action="register.php">
+    <input name="firstname" type="text" placeholder="First Name">
+    <br>
+    <input name="lastname" type="text" placeholder="Last Name">
+    <br>
+    <input name="username" type="text" placeholder="Username">
+    <br>
+    <input name="password" type="password" placeholder="Password">
+    <br>
+    <label>Adress</label>
+    <br>
+    <textarea name="address" cols="50" rows="10"></textarea>
+    <br>
+    <input name="phone" type="text" placeholder="Phone Number">
+    <br>
+    <input type="submit" value="Register">
+
+</form>
+</body>
+</html>
