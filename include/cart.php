@@ -15,7 +15,7 @@ while ($i<sizeof($orderedProductIDs)){
     $productName = getProductNameByProductID($orderedProductID);
     $price=getProductPriceByProductID($orderedProductID);
     echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
-         Price: ($price*$orderedProductQty)</p>";
+         Price: ".($price*$orderedProductQty)."</p>";
     $total = $total + ($price*$orderedProductQty);
     $i++;
 }
