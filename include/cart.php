@@ -13,7 +13,8 @@ while ($i<sizeof($orderedProductIDs)){
     $orderedProductQty = $orderedProductQtys[$i];
     $productName = getProductNameByProductID($orderedProductID);
     $price=getProductPriceByProductID($orderedProductID);
-    echo "<p>Name: $productName Qty: $orderedProductQty Price: $price</p>";
+    echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
+         Price: ($price*$orderedProductQty)</p>";
     $i++;
 }
 
@@ -39,7 +40,7 @@ function getProductNameByProductID($productID){
     $conn = createDatabaseConnection();
     //2. query
     $sql = "select name from products where id=$productID";
-    echo $sql;
+
     //3. run query
     $result = mysqli_query($conn, $sql);
 
