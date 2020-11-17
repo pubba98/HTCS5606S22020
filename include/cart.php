@@ -43,7 +43,7 @@ function getProductNameByProductID($productID){
     $result = mysqli_query($conn, $sql);
 
     //4. show result
-    while ($row=$result->fetch_assoc()){
+    while ($row = $result->fetch_assoc()){
         $name = $row["name"];
     }
     return $name;
