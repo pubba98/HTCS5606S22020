@@ -82,6 +82,7 @@ function createAnOrder($userID, $shippingAddress, $datetime){
     //2 query
     $sql = "INSERT INTO `orders`(`orderNum`, `userID`, `shipAddress`, `orderdate`) 
             VALUES (NULL,$userID,'$shippingAddress','$datetime')";
+    echo $sql;
     //3 run query
     mysqli_query($conn, $sql);
     //I need my orderID
