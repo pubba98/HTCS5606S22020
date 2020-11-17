@@ -29,3 +29,6 @@ if (isset($_SESSION["orderedProductIDs"])){
 //put the new ordered product lists back to session variables
 $_SESSION["orderedProductIDs"] = $orderedProductIDs;
 $_SESSION["orderedProductQtys"] = $orderedProductQtys;
+
+//go back to previous page
+header('Location: ' . $_SERVER['HTTP_REFERER']);
