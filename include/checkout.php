@@ -108,3 +108,6 @@ while ($i < sizeof($orderedProductIDs)){
     insertProductToOrderedTable($orderID, $productID, $qty);
     $i++;
 }
+//clear my shopping cart
+$_SESSION["orderedProductIDs"] = [];
+$_SESSION["orderedProductQtys"] = [];
