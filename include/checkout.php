@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 @session_start();
 
 $orderedProductIDs = $_SESSION["orderedProductIDs"];
@@ -20,24 +17,6 @@ while ($i<sizeof($orderedProductIDs)){
     $i++;
 }
 echo "<p>Total: $total</p>";
-//if ($total > ???){
-//
-//}else{
-//
-//}
-
-if (isset($_SESSION["userID"])){
-?>
-
-<form action="checkout.php" method="post">
-    <textarea name="shippingAddress" rows="10" cols="50"></textarea>
-    <input type="submit" value="Check out">
-</form>
-
-<?php
-}else{
-    echo "you need to login";
-}
 
 function createDatabaseConnection(){
     //1. connect to database
@@ -90,4 +69,42 @@ function getProductPriceByProductID($productID){
         $price = $row["price"];
     }
     return $price;
+}
+
+$userID = $_SESSION["userID"];
+$shippingAddress = $_POST["shippingAddress"];
+date_default_timezone_set("Pacific/Auckland");
+$datetime = date("Y-m-d h:i:sa");
+
+function createAnOrder($userID, $shippingAddress, $datetime){
+    //1 connection
+    $conn = createDatabaseConnection();
+    //2 query
+    $sql = "INSERT INTO `orders`(`orderNum`, `userID`, `shipAddress`, `orderdate`) 
+            VALUES (NULL,$userID,'$shippingAddress','$datetime')";
+    //3 run query
+    mysqli_query($conn, $sql);
+    //I need my orderID
+    $orderID = mysqli_insert_id($conn);
+    return $orderID;
+}
+
+function insertProductToOrderedTable($orderID, $productID, $qty){
+    //1 connection
+    $conn = createDatabaseConnection();
+    //2 query
+    $sql = "INSERT INTO `orderedProducts`(`orderedProductID`, `orderID`, `productID`, `qty`) 
+            VALUES (NULL,$orderID,$productID,$qty)";
+    //3 run query
+    mysqli_query($conn, $sql);
+}
+
+//create my order
+$orderID = createAnOrder($userID, $shippingAddress, $datetime);
+$i = 0;
+while ($i < sizeof($orderedProductIDs)){
+    $productID = $orderedProductIDs[$i];
+    $qty = $orderedProductQtys[$i];
+    insertProductToOrderedTable($orderID, $productID, $qty);
+    $i++;
 }
