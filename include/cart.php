@@ -8,6 +8,7 @@ $orderedProductIDs = $_SESSION["orderedProductIDs"];
 $orderedProductQtys = $_SESSION["orderedProductQtys"];
 
 $i = 0;
+$total = 0;
 while ($i<sizeof($orderedProductIDs)){
     $orderedProductID = $orderedProductIDs[$i];
     $orderedProductQty = $orderedProductQtys[$i];
@@ -15,9 +16,15 @@ while ($i<sizeof($orderedProductIDs)){
     $price=getProductPriceByProductID($orderedProductID);
     echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
          Price: ($price*$orderedProductQty)</p>";
+    $total = $total + ($price*$orderedProductQty);
     $i++;
 }
-
+echo "<p>Total: $total</p>";
+//if ($total > ???){
+//
+//}else{
+//
+//}
 
 function createDatabaseConnection(){
     //1. connect to database
