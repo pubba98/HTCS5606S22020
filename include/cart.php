@@ -39,6 +39,7 @@ function getProductNameByProductID($productID){
     $conn = createDatabaseConnection();
     //2. query
     $sql = "select name from product where id=$productID";
+    echo $sql;
     //3. run query
     $result = mysqli_query($conn, $sql);
 
